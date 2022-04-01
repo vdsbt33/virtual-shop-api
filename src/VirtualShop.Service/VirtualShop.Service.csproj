@@ -6,4 +6,11 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+		<ProjectReference Include="..\VirtualShop.Interface\VirtualShop.Interface.csproj" />
+		<ProjectReference Include="..\VirtualShop.Domain\VirtualShop.Domain.csproj" />
+		<ProjectReference Include="..\VirtualShop.Repository\VirtualShop.Repository.csproj" />
+		<ProjectReference Include="..\VirtualShop.Crosscutting\VirtualShop.Crosscutting.csproj" />
+  </ItemGroup>
+
 </Project>
